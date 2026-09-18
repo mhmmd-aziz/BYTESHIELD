@@ -1,0 +1,23 @@
+models:
+  person: yolov8n.pt
+  ppe: NOTEBOOKS/runs/detect/model_ppe_v12/weights/best.pt
+  smoking: ai/models/smoking/best.pt
+
+thresholds:
+  person: 0.50
+  ppe: 0.25
+  smoking: 0.50
+
+ppe_requirements:
+  helmet: true
+  Vest: true
+  Gloves: false
+  safety_shoe: false
+  goggles: false
+  mask: false
+
+tracking:
+  enabled: false
+
+video:
+  target_fps: 15

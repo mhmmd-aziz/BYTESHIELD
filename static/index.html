@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Safety Vision - Premium</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+    <div class="container">
+        <header>
+            <h1>⚡ AI SAFETY VISION</h1>
+            <p>Advanced Real-time PPE & Smoking Detection</p>
+        </header>
+        
+        <div class="split-layout">
+            <!-- PPE Card -->
+            <div class="card ppe-card">
+                <h2>🟡 PPE Compliance Tester</h2>
+                <p>Detects Helmet, Vest, etc.</p>
+                
+                <label class="upload-btn" id="ppe-upload-label">
+                    <input type="file" id="ppe-input" accept="image/*,video/mp4,video/x-m4v,video/*">
+                    <span>📸 Upload Photo / Video</span>
+                </label>
+                
+                <div class="loader" id="ppe-loader" style="display:none;"></div>
+                
+                <div class="result-media" id="ppe-result-container" style="display:none;">
+                    <!-- media injected here -->
+                </div>
+            </div>
+
+            <!-- Smoking Card -->
+            <div class="card smoke-card">
+                <h2>🔴 Smoking Detection Tester</h2>
+                <p>Detects Cigarettes & Smoking activity.</p>
+                
+                <label class="upload-btn" id="smoke-upload-label">
+                    <input type="file" id="smoke-input" accept="image/*,video/mp4,video/x-m4v,video/*">
+                    <span>📸 Upload Photo / Video</span>
+                </label>
+                
+                <div class="loader" id="smoke-loader" style="display:none;"></div>
+                
+                <div class="result-media" id="smoke-result-container" style="display:none;">
+                    <!-- media injected here -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
