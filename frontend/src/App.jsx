@@ -64,8 +64,8 @@ function App() {
       : 'max-w-[85rem] mx-auto bg-white/60 backdrop-blur-2xl shadow-[0_8px_30px_rgba(0,0,0,0.08)] border border-gray-200/80 rounded-[1.5rem] transition-all duration-500';
 
   const navItems = [
-    { label: 'Beranda', value: '/', icon: <Home className="w-4 h-4" /> },
-    { label: 'Fitur', value: '/features', icon: <Layers className="w-4 h-4" /> },
+    { label: 'Home', value: '/', icon: <Home className="w-4 h-4" /> },
+    { label: 'Features', value: '/features', icon: <Layers className="w-4 h-4" /> },
     { label: 'FAQ', value: '/faq', icon: <HelpCircle className="w-4 h-4" /> },
     { label: 'Panduan', value: '/guide', icon: <BookOpen className="w-4 h-4" /> },
     { label: 'Pindai', value: '/scan', icon: <ScanLine className="w-4 h-4" /> },
