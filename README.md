@@ -1,4 +1,4 @@
-# ByteShield 🛡️
+# ByteShield: Analisis Statis Tingkat Lanjut untuk Windows Executable Berbasis Deep Learning  🛡️
 
 **Analisis Statis Tingkat Lanjut untuk Windows Executable Berbasis Deep Learning (CNN)**
 
